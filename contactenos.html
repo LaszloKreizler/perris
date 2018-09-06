@@ -1,1 +1,48 @@
-<section class="main">Contactenos</section>
+
+    <div class="content-form">
+        <form id="contact" action="" method="GET">
+            <h3>Registrate</h3>
+            <h4>Contáctate con nosotros hoy</h4>
+  
+            <fieldset>
+                <label for="email">Correo Electrónico</label><br>
+                <input placeholder="Tu Email" type="email" tabindex="1" required>
+            </fieldset>
+  
+            <fieldset>
+                <label for="run">Run</label><br>
+                <input name="run" placeholder="Ejemplo: 12345678-9" type="text" tabindex="2" required>
+            </fieldset>
+  
+            <fieldset>
+                <label for="nombre">Nombre Completo</label><br>
+                <input name="nombre" placeholder="Ingresa tu nombre" type="text" tabindex="3" required>
+            </fieldset>
+  
+            <fieldset>
+                <label for="fecha-nac">Fecha de nacimiento</label><br>
+                <input type="date" name="fecha-nac" tabindex="4" required>
+            </fieldset>
+  
+            <fieldset>
+                <label for="tel">Numero de Teléfono</label><br>
+                <input type="tel" name="tel" tabindex="5" placeholder="9 dígitos">
+            </fieldset>
+            
+            <fieldset>
+                <label for="region">Región</label><br>
+                <select name="region" id="regiones" style="width: 100%; height: 30px;"></select>
+            </fieldset>
+    
+            <fieldset>
+                <label for="comuna">Comuna</label><br>
+                <select name="comuna" id="comunas" style="width: 100%; height: 30px;"></select>
+            </fieldset>
+
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="js/region-comuna.js"></script>
