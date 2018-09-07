@@ -2,16 +2,16 @@
     <div class="content-form">
         <form id="contact" action="" method="GET">
             <h3>Registrate</h3>
-            <h4>Contáctate con nosotros hoy</h4>
+            <h4>Contáctate con nosotros hoy jjkasjsajkkjaskjaskj</h4>
   
-            <fieldset>
+            <!-- <fieldset>
                 <label for="email">Correo Electrónico</label><br>
                 <input placeholder="Tu Email" type="email" tabindex="1" required>
-            </fieldset>
+            </fieldset>-->
   
             <fieldset>
-                <label for="run">Run</label><br>
-                <input name="run" placeholder="Ejemplo: 12345678-9" type="text" tabindex="2" required>
+                <label for="rut">Rut</label><br>
+                <input name="rut" placeholder="Ingrese sin puntos ni guíon" type="text" tabindex="2" maxlength="10" oninput="checkRut(this)" required>
             </fieldset>
   
             <fieldset>
@@ -26,17 +26,28 @@
   
             <fieldset>
                 <label for="tel">Numero de Teléfono</label><br>
-                <input type="tel" name="tel" tabindex="5" placeholder="9 dígitos">
+                <input type="tel" name="tel" tabindex="5" minlength="9" maxlength="9" placeholder="9 dígitos">
             </fieldset>
             
             <fieldset>
                 <label for="region">Región</label><br>
-                <select name="region" id="regiones" style="width: 100%; height: 30px;"></select>
+                <select name="region" id="regiones" required style="width: 100%; height: 30px;" required></select>
             </fieldset>
     
             <fieldset>
-                <label for="comuna">Comuna</label><br>
-                <select name="comuna" id="comunas" style="width: 100%; height: 30px;"></select>
+                <label for="comuna">Ciudad</label><br>
+                <select name="comuna" id="comunas" style="width: 100%; height: 30px;" required></select>
+            </fieldset>
+
+            <fieldset>
+                <label for="vivienda">Tipo de vivienda</label>
+                <select name="vivienda" style="width: 100%; height: 30px;" required>
+                    <option value="" selected>Seleccione</option>
+                    <option value="patioGrande">Casa con patio grande</option> 
+                    <option value="patioPequeño">Casa con patio pequeño</option>
+                    <option value="sinPatio">Casa sin Patio</option>
+                    <option value="departamento">Departamento</option> 
+                  </select>
             </fieldset>
 
             <fieldset>
@@ -46,3 +57,4 @@
     </div>
 
     <script src="js/region-comuna.js"></script>
+    <script src="js/rut.js"></script>
