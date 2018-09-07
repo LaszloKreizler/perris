@@ -3,7 +3,7 @@
             <h3>Registrate</h3>
             <h4>Contáctate con nosotros hoy </h4>
   
-            <fieldset>
+            <!-- <fieldset>
                 <label for="email">Correo Electrónico</label><br>
                 <input placeholder="Tu Email" type="email" tabindex="1" required>
             </fieldset>
@@ -12,22 +12,24 @@
                 <label for="rut">Rut</label><br>
                 <input name="rut" placeholder="Ingrese sin puntos ni guíon" type="text" tabindex="2" maxlength="10" oninput="checkRut(this)" required>
             </fieldset>
+        -->
   
             <fieldset>
                 <label for="nombre">Nombre Completo</label><br>
-                <input name="nombre" placeholder="Ingresa tu nombre" type="text" tabindex="3" required>
-            </fieldset>
+                <input type="text" name="nombre" pattern="[A-Za-z{5}]" placeholder="Ingresa tu nombre"  tabindex="1" required>
+            </fieldset> 
   
-            <fieldset>
+            <!-- <fieldset>
                 <label for="fecha-nac">Fecha de nacimiento</label><br>
                 <input type="date" name="fecha-nac" tabindex="4" required>
-            </fieldset>
+            </fieldset> -->
   
-            <fieldset>
+            <!-- <fieldset>
                 <label for="tel">Numero de Teléfono</label><br>
-                <input type="tel" name="tel" tabindex="5" minlength="9" maxlength="9" placeholder="9 dígitos">
-            </fieldset>
+                <input type="tel" name="tel" pattern="[0-9]*" tabindex="5" minlength="9" maxlength="9" placeholder="9 dígitos">
+            </fieldset> -->
             
+            <!-- Reparar campos obligatorios -->
             <fieldset>
                 <label for="region">Región</label><br>
                 <select name="region" id="regiones" required style="width: 100%; height: 30px;" required></select>
@@ -38,8 +40,8 @@
                 <select name="comuna" id="comunas" style="width: 100%; height: 30px;" required></select>
             </fieldset>
 
-            <fieldset>
-                <label for="vivienda">Tipo de viviedsanda</label>
+            <!-- <fieldset>
+                <label for="vivienda">Tipo de vivienda</label>
                 <select name="vivienda" style="width: 100%; height: 30px;" required>
                     <option value="" selected>Seleccione Tipo de vivienda</option>
                     <option value="patioGrande">Casa con patio grande</option> 
@@ -47,7 +49,7 @@
                     <option value="sinPatio">Casa sin Patio</option>
                     <option value="departamento">Departamento</option> 
                   </select>
-            </fieldset>
+            </fieldset> -->
 
             <fieldset>
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando">Enviar</button>
