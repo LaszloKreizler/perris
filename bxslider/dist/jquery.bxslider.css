@@ -37,15 +37,6 @@ ul.bxslider {
   margin: 15px auto;
 }
 
-/*@media screen and (max-width: 999px) {
-  .bx-wrapper {
-    margin: 10px auto 35px auto;
-  }
-
-  .bx-wrapper img{
-    width: 100%;
-}*/
-
 @media screen and (max-width: 768px) {
   .bx-wrapper {
     margin: 0 auto 35px auto;

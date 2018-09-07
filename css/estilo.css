@@ -274,7 +274,10 @@ footer{
 
 	.content-form{
 		width: 100%;
+	}
 
+	#contact button[type="submit"] {
+		width:100%;
 	}
 
 }

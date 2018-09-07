@@ -41,7 +41,7 @@
 *************************/
 
 .content-form{
-	width: 90%;
+	width: 50%;
 	height: auto;
 	margin: 0 auto;
 	background-color: rgb(218, 213, 223);
@@ -83,7 +83,7 @@ fieldset {
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
-	margin:0 0 5px;
+	margin:5px 0;
 	padding:10px;
 }
 
@@ -97,7 +97,7 @@ fieldset {
 
 #contact button[type="submit"] {
 	cursor:pointer;
-	width:100%;
+	width:100px;
 	border:none;
 	background:#6DCCAA;
 	color:#FFF;
@@ -132,4 +132,8 @@ fieldset {
 }
 :-ms-input-placeholder {
  color:#888;
+}
+
+#contact label{
+	color: #857777;
 }
