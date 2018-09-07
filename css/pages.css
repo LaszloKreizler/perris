@@ -2,9 +2,16 @@
 	QUIENES SOMOS
 *************************/
 
-#jaja{
+#main-qs{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding:10px;
+}
+
+#h2-qs{
     font-style:italic;
-    font-size: 40px;
+    font-size: 20px;
 	color:rgb(40, 119, 90);
 }
 
