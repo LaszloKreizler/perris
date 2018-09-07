@@ -64,17 +64,11 @@
 #contact input[type="tel"], #contact button[type="submit"] { 
 	font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
 }
-/*
-
 
 #contact {
 	background:#F9F9F9;
 	padding:25px;
 }
-
-
-
-
 
 fieldset {
 	border: medium none !important;
@@ -100,6 +94,11 @@ fieldset {
 	transition:border-color 0.3s ease-in-out;
 	border:1px solid #AAA;
 }
+
+/*
+
+
+
 
 #contact button[type="submit"] {
 	cursor:pointer;
