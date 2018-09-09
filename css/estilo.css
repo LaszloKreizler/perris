@@ -189,7 +189,7 @@ h4{
 	/*FLEX BOX*/
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -217,6 +217,13 @@ footer{
 /******************************
 	MEDIA-QUERI
 *************************/
+
+@media screen and (min-width: 768px) {
+	#galeria img{
+		height: 150px;
+	}
+}
+
 
 @media screen and (max-width: 768px) {
 	.contenedor {
@@ -258,19 +265,6 @@ footer{
 	#icon{
 		width: 50%;
 		padding: 15px 0;
-	}
-
-	#galeria{
-		/*FLEX BOX*/
-		display: flex;
-		flex-flow: column wrap;
-		height: 310px;
-		justify-content: space-evenly;
-	}
-
-	#galeria img{
-		margin: 2px;
-		width: 100px;
 	}
 
 	.content-form{
@@ -329,6 +323,19 @@ footer{
 
 	#icon{
 		width: 80%;
+	}
+
+	#galeria{
+		/*FLEX BOX*/
+		display: flex;
+		flex-flow: column wrap;
+		height: 310px;
+		align-items: center;
+	}
+
+	#galeria img{
+		margin: 2px;
+		width: 100px;
 	}
 }
 
