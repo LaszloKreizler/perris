@@ -20,12 +20,12 @@
   
             <fieldset>
                 <label for="nombre">Nombre Completo</label><br>
-                <input type="text" pattern="[A-Z]" name="nombre" placeholder="Ingresa tu nombre"  tabindex="1" required>
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre"  tabindex="1" required>
             </fieldset> 
   
             <fieldset>
                 <label for="fecha-nac">Fecha de nacimiento</label><br>
-                <input type="date" name="fecha-nac" max="2000-12-31" title="Debe ser mayor de edad para registrarse!" tabindex="4" required>
+                <input type="date" name="fecha-nac" min="1950-12-31" max="2000-12-31" title="Debe ser mayor de edad para registrarse!" tabindex="4" required>
             </fieldset>
   
             <fieldset>
