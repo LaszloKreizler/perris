@@ -12,10 +12,10 @@
 }
 
 #main-qs article{
-	width: 100%;
+	width: 45%;
 	background-color: #6dccaa;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 	justify-content: flex-start;
 	text-align: left; 
 }
