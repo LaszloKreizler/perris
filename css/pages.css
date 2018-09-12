@@ -51,21 +51,30 @@
 	width: 100%;
 	margin: 0;
 	height: auto;
+	background-color: #FFF;
+}
+
+.titulo{
+	background-color: #fff;
+	height: 50px;
+	width: 99%;
+	border-radius: 15px;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
 }
 
 .title{
-	width: 100%;
-	height: 50px;
-	font-size: 30px;
-	color: #8a8585;
-	border-bottom: solid #6DCCAA 2px;
-	margin-bottom: 40px;
+	font-family: 'Amatic SC';
+	font-style: italic;
+	font-size: 60px;
+	color: rgb(126, 138, 134);
+	margin: 50px auto ;
 	font-weight: lighter;
 }
 
 .content-form{
-	background-color: #FFF;
-	width: 50%;
+	background-image: linear-gradient(to top, #6dccaa, #84d0b4, #99d3be, #add7c8, #c1dad1);	width: 50%;
 	height: auto;
 	margin: 10px auto;
 	border-radius: 5px;
@@ -75,7 +84,7 @@
 }
 
 #contact h3 {
-	color:#6DCCAA;
+	color:#FFF;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -125,15 +134,17 @@ fieldset {
 	cursor:pointer;
 	width:100px;
 	border:none;
-	background:#6DCCAA;
-	color:#FFF;
+	background:#FFF;
+	color:#6DCCAA;
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
+	font-weight: bold;
 }
 
 #contact button[type="submit"]:hover {
-	background:#6DCCAA;
+	background:rgb(25, 163, 115);
+	color: #FFF;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -161,7 +172,8 @@ fieldset {
 }
 
 #contact label{
-	color: #857777;
+	color: #FFF;
+	font-weight: bold;
 }
 
 contact select{

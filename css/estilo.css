@@ -320,6 +320,12 @@ footer{
 	#icon{
 		width: 50%;
 	}
+
+	.title{
+		font-family: 'Amatic SC';
+		font-style: italic;
+		font-size: 35px;
+		}
  	
 }
 /*******/
