@@ -8,25 +8,29 @@ $(document).ready(function(){
         randomStart: true
     });
     
-    /*$('#inicio').on('click', function() {
-        $('.main').load('index.html');
+    $('#inicio').on('click', function() {
+        $('.main').load('main.html')
+        $('.ocultar').show();
         return false;
-    });*/
+    });
 
   
 // MENU 
     $('#quienes-somos').on('click', function() {
-        $('.main').load('quienes-somos.html#h2');
+        $('.main').load('quienes-somos.html')
+        $('.ocultar').hide();
         return false;
     });
 
     $('#servicios').on('click', function() {
-        $('.main').load('servicios.html');
+        $('.main').load('servicios.html')
+        $('.ocultar').hide();
         return false;
     });
 
     $('#contactenos').on('click', function() {
-        $('.main').load('contactenos.html');
+        $('.main').load('contactenos.html')
+        $('.ocultar').hide();
         return false;
     });
 

@@ -8,6 +8,11 @@
 	
 }
  
+.ocultar{
+	margin: 0 auto;
+	width: 100%;
+}
+
 .contenedor {
 	width:100%;
 	margin:auto;
@@ -20,7 +25,7 @@
 header {
 	background-color:#85D4B7;
 	width:100%;
-	padding: 20px 0;
+	padding: 20px 0 0 0;
  
 	/* Flexbox */
 	display: flex;
@@ -39,6 +44,10 @@ header .logo a {
 	color:#fff;
 	text-decoration: none;
 	line-height:50px;
+}
+
+.logo{
+	padding-bottom: 10px;
 }
  
 header nav {
@@ -91,6 +100,7 @@ header nav a:hover {
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: center;
+	margin-top: 40px;
 	
 }
 
@@ -116,7 +126,7 @@ header nav a:hover {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding:20px;
+	padding:15px;
 }
  
 .main article {
@@ -256,6 +266,7 @@ footer{
 	.datos{
 		justify-content: center;
 		align-items: center;
+		margin-top: 0;
 	}
 
 	.datos p{

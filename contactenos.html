@@ -1,3 +1,4 @@
+    <section class="main">
     <div class="content-form">
         <form id="contact" action="" method="GET">
             <h3>Aquí puedes contactarnos.</h3>
@@ -20,7 +21,7 @@
   
             <fieldset>
                 <label for="nombre">Nombre Completo</label><br>
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre"  tabindex="1" required>
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" pattern="[A-Za-z ]+{1,255}"tabindex="1" required>
             </fieldset> 
   
             <fieldset>
@@ -60,6 +61,6 @@
             </fieldset>
         </form>
     </div>
-
+</section>
     <script src="js/region-comuna.js"></script>
     <script src="js/rut.js"></script>
