@@ -46,6 +46,10 @@
 	CONTACTENOS
 *************************/
 
+.fondo{
+	background-image: url("../img/fondo.jpg");
+}
+
 .content-form{
 	width: 50%;
 	height: auto;
@@ -145,3 +149,9 @@ fieldset {
 #contact label{
 	color: #857777;
 }
+
+contact select{
+	border-radius: 30px;
+}
+
+
