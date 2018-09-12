@@ -91,9 +91,9 @@
 
 .title{
 	font-family: 'Amatic SC';
-	font-style: italic;
-	font-size: 60px;
-	color: rgb(126, 138, 134);
+	font-style: oblique;
+	font-size: 40px;
+	color: rgb(131, 131, 131);
 	margin: 50px auto ;
 	font-weight: bold;
 }
@@ -118,7 +118,7 @@
 #contact h4 {
 	margin:5px 0 15px;
 	display:block;
-	font-size:13px;
+	font-size:16px;
 }
 
 #contact input[type="text"], #contact input[type="email"], 
