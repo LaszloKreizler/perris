@@ -5,23 +5,42 @@
 #main-qs{
 	width: 100%;
 	display: flex;
+	flex-flow: column wrap;
 	justify-content: space-around;
 	padding:10px;
 	background-color: #f2f2f2;
 }
 
 #main-qs article{
+	width: 100%;
 	background-color: #6dccaa;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	text-align: left; 
 }
 
 #h2-qs{
+	width: 100%;
     font-style:italic;
     font-size: 20px;
 	color:rgb(40, 119, 90);
+	padding: 10px 0;
 }
 
+#p-qs{
+	width: 50%;
+}
+
+#main-qs article img{
+	width: 40%;
+	height: 100px;
+} 
+
+
+
 #h1{
-    text-align: left;
+    
     font-style:italic;
     font-weight:13px;
     font-size:200%;
