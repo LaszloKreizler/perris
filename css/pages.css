@@ -7,6 +7,11 @@
 	display: flex;
 	justify-content: space-around;
 	padding:10px;
+	background-color: #f2f2f2;
+}
+
+#main-qs article{
+	background-color: #6dccaa;
 }
 
 #h2-qs{
@@ -70,7 +75,7 @@
 	font-size: 60px;
 	color: rgb(126, 138, 134);
 	margin: 50px auto ;
-	font-weight: lighter;
+	font-weight: bold;
 }
 
 .content-form{
