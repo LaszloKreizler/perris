@@ -287,6 +287,23 @@ footer{
 		width:100%;
 	}
 
+	/* quienes somos */
+
+	#main-qs{
+		flex-flow: column wrap;
+	}
+
+	#main-qs article{
+		width: 100%;
+		text-align: center; 
+	}
+
+	.img-qs{
+		margin: 10px auto 0 auto;
+		width: 50%;
+		height: 200px;
+	}
+
 }
 
  /*******/
@@ -325,7 +342,13 @@ footer{
 		font-family: 'Amatic SC';
 		font-style: italic;
 		font-size: 30px;
-		}
+	}
+
+	.img-qs{
+		margin: 10px auto 0 auto;
+		width: 75%;
+		height: 200px;
+	}
  	
 }
 /*******/
@@ -354,6 +377,11 @@ footer{
 	#galeria img{
 		margin: 2px;
 		width: 100px;
+	}
+
+	.img-qs{
+		width: 90%;
+		height: 150px;
 	}
 }
 

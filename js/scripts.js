@@ -34,6 +34,12 @@ $(document).ready(function () {
         return false;
     });
 
+    $('.btn btn--mail').on('click', function () {
+        $('#main-qs').load('contactenos.html')
+        $('.ocultar').hide();
+        return false;
+    });
+
     //FancyBox Galería
 
     $(".img-galeria").fancybox({
